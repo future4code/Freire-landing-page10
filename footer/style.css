@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-div {
-    display: block;
+    /* box-sizing: border-box; */
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -14,12 +11,9 @@ body{
 }
 footer{
     background-color: #3B4F66;
-    height: auto;
-    padding: 100px;
-
-}
-footer p {
-    width: 250px;
+    margin: 8px;
+    padding-left: 6%;
+    padding-bottom: 30px;
 }
 .containerFooter{
     padding-right: 15px;
@@ -27,47 +21,66 @@ footer p {
     margin-right: auto;
     margin-left: auto;
 }
-.rowFooter{
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.colunaFooter p{
-    display: grid;
-    color: rgb(255, 255, 255);
-    margin: 0 0 10px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.logo{
+        display: inline-block;
+        max-width: 50%;
+        max-height: 50%;
+        width: auto;
+        height: auto;
+    }
+.botao{
+    transition: opacity 250ms ease-in;
+    font-weight: bold;
     font-size: 14px;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 30px;
+
 }
-img{
-    vertical-align: middle;
-    border: 0;
-    max-width: 100%;
+.botao:hover{
+    background-color: #9EDA6D;
+}
+.botao:active{
+    background-color: #fff;
+}
+.colunaFooter-1,.colunaFooter-2, .colunaFooter-3{
+    display: inline-block;
+    padding: 5% 0 0 7%;
+
 }
 a{
     text-decoration: none;
     cursor: pointer;
     opacity: 0.9;
+    color: #3B4F66;
 }
 .footer .grandeVerde{
-    font-size: 30px;
+    font-size: 20px;
     color: #9EDA6D;
-    margin-top: -15px;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 250px;
+}
+.listaMapa{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
 }
 .siteMapa{
     color: #fff;
-    margin: 10px;
-    font-size: 18px;
+    font-size: 13px;
+    
 }
-.colunaFooter .botao{
-    margin: 30px 0 20px;
-    text-align: left;
+.colunaSociais{
+    text-align: center;
+    padding-left: 35%;
+    display: inline-block;
+    padding-top: 50px;
 }
-.botao{
-    transition: opacity 250ms ease-in;
-    font-weight: 700;
-    font-size: 16px;
+.redesSociais{
+    padding: 5px;
 }
