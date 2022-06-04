@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    /* box-sizing: border-box; */
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -12,22 +11,17 @@ body{
 footer{
     background-color: #3B4F66;
     margin: 8px;
-    padding-left: 6%;
-    padding-bottom: 30px;
+
 }
 .containerFooter{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 10px;
+
 }
-.logo{
-        display: inline-block;
-        max-width: 50%;
-        max-height: 50%;
-        width: auto;
-        height: auto;
-    }
+
 .botao{
     transition: opacity 250ms ease-in;
     font-weight: bold;
@@ -48,7 +42,7 @@ footer{
 }
 .colunaFooter-1,.colunaFooter-2, .colunaFooter-3{
     display: inline-block;
-    padding: 5% 0 0 7%;
+    padding: 10% 0 0 0;
 
 }
 a{
@@ -75,12 +69,13 @@ a{
     font-size: 13px;
     
 }
-.colunaSociais{
-    text-align: center;
-    padding-left: 35%;
-    display: inline-block;
-    padding-top: 50px;
+#ColunaSociais{
+    padding-top: 5%;
+    grid-row: 2/ span 1;
+    grid-column: 1 / span 4;
 }
-.redesSociais{
-    padding: 5px;
+
+#redesSociais{
+    padding-top: 4%;
+    margin-left: 25%;
 }
