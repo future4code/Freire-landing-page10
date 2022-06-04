@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.containerClube1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #3B4F66;
+    padding-bottom: 2%;
+}
+.imagemClube1{
+    width: 80%;
+    height: 80%;
+    padding-left: 40px;
+
+}
+.tituloClube1{ 
+    color:#9EDA6D;
+    font-size: 37px;
+    width: 400px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.subtituloClube1{
+    padding-left: 40px;
+    color: #fff;
+}
+.containerClube2{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    background-color: #3B4F66;
+    margin-top: 1%;
+    padding-bottom: 12%;
+}
+.imagem1Clube2{
+    width: 70%;
+    height: 60%;
+    padding-left: 10%;
+    padding-top: 10%;
+
+}
+.imagem2Clube2{
+    width: 70%;
+    height: 60%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.imagem3Clube2{
+    padding-top: 1%;
+    width: 70%;
+    height: 60%;
+    padding-left: 10%;
+}
+
+.subtituloClube2{
+    font-size: 30px;
+    text-align: center;
+    color: #9EDA6D;
+}
+.conteudoClube2{
+    padding-top: 2%;
+    padding-left: 40px;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    
+}
+
+.itensFormulario{
+color: #9EDA6D;
+}
+.caixaConteudo{
+    width: 400px;
+    background-color: #fff;
+}
+#conteudoMensagem{
+    height: 100px;
+    width: 500px;
+}
+#botaoSaibaMais{
+    margin-left: 40%;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    background-color: #3B4F66;
+    color: #9EDA6D;
+    border-radius: 10%;
+    margin-bottom:5% ;
+}
+#botaoSaibaMais:hover{
+    background-color: #9EDA6D;
+    color: #3B4F66;
+}
+
+#botaoSaibaMais:active{
+    background-color: white;
+}
