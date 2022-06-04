@@ -1,0 +1,272 @@
+html{
+    text-size-adjust: 100%;
+}
+* {
+    box-sizing: inherit;
+    min-height: 0px;
+}
+
+body{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: normal;
+    overflow-wrap: break-word;
+    font-kerning: normal;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+}
+.mainDuvidas{
+display: flex;
+flex-direction: column;
+-webkit-box-align: stretch;
+align-items: stretch;
+-webkit-box-pack: start;
+justify-content: flex-start;
+}
+.mainDuvidasContainer{
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+}
+h2{
+    padding: 0px 0px 0px 33px;
+}
+.mainDuvidash2{
+    color: #3b4f66;
+    text-decoration: none;  
+    margin: 0%;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-rendering: optimizeLegibility;
+}
+.mainDuvidasP{
+    color: #3b4f66;;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    
+}
+
+/* @media screen and (min-width: 640px) 
+<style>
+.mainDuvidasP{
+    padding: 16px 0px 0px;
+} */
+
+.mainDuvidasEu {
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(83, 95, 104);
+    margin: 0;
+    padding: 0px 0px 2px 35px;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasPEu {
+    text-align: center;
+} */
+
+
+
+.mainDuvidasBloco{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasBloco {
+    padding: 16px 0px 32px;
+} */
+
+ul{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    display: list-item;
+    margin-bottom: 0;
+    text-align: -webkit-match-parent;
+}
+li :last-child {
+    margin-bottom: 10px;
+}
+
+ul li{
+    padding-left: 0;
+
+}
+.mainBotaoDuvidasFinal{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* @media screen and (min-width: 640px)
+<style>
+.mainBotaoDuvidasFinal{
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+} */
+
+.mainBotaoDuvidasFinalMargin{
+    display: flex;
+    flex-flow: column nowrap;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainBotaoDuvidasFinalMargin{
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+} */
+
+.mainBotaoDuvidasFinal::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    inset: -4px;
+    border: 2px solid transparent;
+    z-index: 1;
+    pointer-events: none;
+    box-sizing: inherit;
+}
+
+/* .mainDuvidasBotaoDivSpan{
+
+} */
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasBotaoDivSpan{
+    display: inline-block;
+} */
+button{
+    appearance: none;
+    overflow: visible;
+    
+}
+.mainDuvidasBotao{
+    border-color: solid 2px #3b4f66;
+    background-color: #3b4f66;
+}
+.mainDuvidasBotaoDiv{
+    background-color: #9eda4e;
+    display: flex;
+    -webkit-box-align: stretch;
+    flex-flow: row nowrap;
+}
+button .mainDuvidasBotaoDiv{
+    text-align: left;
+    cursor: pointer;
+}
+.mainDuvidasDivSvg{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasDivSvg{
+    padding: 0px 16px 0px 0px;
+} */
+
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasDivSvg {
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+} */
+
+.mainDuvidasTituloLista{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3b4f66;
+    padding: 5px;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasTituloLista {
+    text-align: inherit;
+} */
+.mainDuvidasDivSome{
+    transition: max-height 0.3s ease 0s;
+    overflow: hidden;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.brXOYb {
+    max-height: 0px;
+} */
+.mainDuvidasDivSomeMargin{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    color: black;
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasDivSomeMargin {
+    padding: 16px 16px 16px 56px;
+} */
+.mainDuvidasDivSomeMarginP{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.mainBotaoDuvidasSpan{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out 0s;
+    line-height: 44px;
+    background-color: transparent;
+    padding: 0px 22px;
+    border: 2px solid rgb(47, 57, 65);
+    color: rgb(0, 0, 0);
+
+}
+/* @media screen and (min-width: 640px)
+<style>
+.mainDuvidasDivSomeMarginP {
+    text-align: inherit;
+} */
