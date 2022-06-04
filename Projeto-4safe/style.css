@@ -60,7 +60,71 @@ header li {
     margin: 0 10px
 }
 
-@media (max-width:700px) {
+
+
+
+
+
+/* MAIN */
+main {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #304053;
+    display: flex;
+    padding-top:16vh;
+    padding-bottom: 1vh ;
+    flex-direction: column;
+    /* border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px; */
+}
+
+.textoAbertura {
+    font-size: 44px;
+}
+
+.textoAbertura2 {
+    margin: 15px 15px;
+    font-size: 24px;
+}
+
+.imagemCasal {
+    height: 30vh;
+    width: auto;
+}
+
+.textoSeguro{
+    padding-top: 50px;
+    color: green;
+    font-size: 44px;
+}
+.textoSeguro2{
+    padding: 30px;
+    margin: 15px 15px;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PARTE RESPONSIVA */
+
+@media screen and (min-width:645px) and (max-width:920) {
     header {
         flex-direction: column;
         text-align: center;
@@ -69,8 +133,32 @@ header li {
     header {
         margin-bottom: 5px;
     }
+
+    .textoAbertura,.textoSeguro {
+        text-align: center;
+        font-size: 34px;
+    }
 }
 
-main {
-    background-color: #304053;
+
+@media screen and (min-width:300px) and (max-width:650px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    /* header li {
+        display: none;
+    }  */
+
+    .textoAbertura, .textoSeguro {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .textoAbertura2, .textoSeguro2 {
+        text-align: center;
+        font-size: 14px;
+    }
 }
