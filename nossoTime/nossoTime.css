@@ -22,14 +22,10 @@
 
 }
 .imagemTime{
-   border-radius: 40%;
-   max-width: 30%;
-   max-height: 30%;
+   border-top-left-radius: 80%;
    width: 30%;
    height: 30%;
    padding-left: 50%;
-
-
 }
 .subtituloTime{
     color:#9EDA6D;
