@@ -4,7 +4,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-nav,ul {
+nav,
+ul {
     list-style-type: none;
     font-size: medium;
 }
@@ -79,10 +80,11 @@ main {
 }
 
 .cabecalho {
+
     width: 100%;
     background-color: #304053;
     display: flex;
-    padding-top: 16vh;
+    padding-top: 160px;
     padding-bottom: 1vh;
     flex-direction: column;
     /* border-bottom-left-radius: 80px;
@@ -151,7 +153,7 @@ body {
     /* line-height: 1.42857143; */
 }
 
-.imagemFooter{
+.imagemFooter {
     height: 50%;
     width: 50%;
     padding-left: 30%;
@@ -159,6 +161,7 @@ body {
     /* height: auto;
     width: 50vw; */
 }
+
 .containerFooter {
     /* padding-top: 99px; */
     display: grid;
@@ -201,11 +204,13 @@ body {
 .botao:active {
     background-color: #fff;
 }
-.colunaFooter-1{
+
+.colunaFooter-1 {
     grid-row: 1/ span;
     grid-column: 1 / span 2;
 }
-.colunaFooter-2{
+
+.colunaFooter-2 {
     /* width: 400px; */
     grid-row: 2/ span;
     grid-column: 1 / span 2;
@@ -243,16 +248,17 @@ footer p {
 .ColunaSociais {
     padding-top: 3%;
     grid-row: 3/ span 1;
-    grid-column: 1 / span 2 ;
+    grid-column: 1 / span 2;
 }
 
 .redesSociais {
 
     margin-left: 19%;
 }
- .redesSociais a {
+
+.redesSociais a {
     padding: 8px;
-} 
+}
 
 
 
@@ -400,7 +406,7 @@ footer p {
     width: 80%;
     height: 80%;
     padding-left: 40px;
-    
+
 
 }
 
@@ -518,7 +524,7 @@ body {
 
 .mainDuvidas {
     margin-top: 2%;
-    
+
     /* display: flex;
     flex-direction: column; */
     /* -webkit-box-align: stretch; */
@@ -549,7 +555,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-rendering: optimizeLegibility;
-    
+
 }
 
 .mainDuvidasP {
@@ -814,7 +820,10 @@ button .mainDuvidasBotaoDiv {
     }
 
     .textoAbertura,
-    .textoSeguro, .tituloClube1, .subtituloClube1, .subtituloClube2 {
+    .textoSeguro,
+    .tituloClube1,
+    .subtituloClube1,
+    .subtituloClube2 {
         text-align: center;
         font-size: 34px;
     }
@@ -853,11 +862,12 @@ button .mainDuvidasBotaoDiv {
         padding: auto;
     }
 
-    .imagemFormulario, .imagemClube1 {
+    .imagemFormulario,
+    .imagemClube1 {
         width: 40vw;
         height: auto;
         scroll-padding-right: 30%;
-        
+
     }
 
     /*TIME*/
@@ -887,6 +897,7 @@ button .mainDuvidasBotaoDiv {
         padding-left: 30%;
 
     }
+
     /*TESTE CONTAINERFOETER*/
     .containerTime {
         padding-top: 10vh;
@@ -897,6 +908,7 @@ button .mainDuvidasBotaoDiv {
         font-size: 15px;
 
     }
+
     .textoFooter {
         font-size: 10px;
         text-align: center;
@@ -904,6 +916,30 @@ button .mainDuvidasBotaoDiv {
 
     /*promocoes*/
 
+
+
+
+
+    .containerClube1 {
+        flex-direction: column;
+
+    }
+
+    /* #botaoSaibaMais{
+        height: auto;
+        width: 15vw;
+    } */
+
+    .tituloClube1,
+    .subtituloClube1 {
+        font-size: 70%;
+    }
+
+    .containerClube2 {
+        flex-direction: column;
+        font-size: 50%;
+        padding-bottom: 18vh;
+    }
 
 }
 
@@ -915,24 +951,28 @@ button .mainDuvidasBotaoDiv {
         margin-bottom: 5px;
     }
 
-    header li {
-        display: none;
-    }
 
+    .subtituloClube2,
     .textoAbertura,
-    .textoSeguro,.tituloClube1, .subtituloClube1, .subtituloClube2 {
+    .textoSegVida,
+    .textoSeguro,
+    .tituloClube1 {
         text-align: center;
         font-size: 26px;
         padding: 0px;
     }
 
-    .textoAbertura2,
+    .subtituloClube1,
+    .conteudoClube2, .textoAbertura2,
+    .textoSegVida2,
     .textoSeguro2 {
         text-align: center;
         font-size: 14px;
     }
 
-    .imgCoberturas {
+    .imgCoberturas,
+    .imgCoberturaSegVida,
+    .imgAssistenciaSegVida {
         width: 95%;
         height: auto
     }
@@ -982,12 +1022,13 @@ button .mainDuvidasBotaoDiv {
     /*TIME*/
     /*TIME*/
 
-    .containerTime {
-        padding-top: 10vh;
+    .containerTime,
+    .item1Clube1 {
+        padding-top: 14.8vh;
     }
 
     .tituloTime {
-        padding-top: 20px;
+        padding-top: 50px;
         font-size: 15px;
 
     }
@@ -1007,6 +1048,7 @@ button .mainDuvidasBotaoDiv {
         padding-left: 30%;
 
     }
+
     /*TESTE CONTAINER FOOTER*/
     .containerFooter {
         padding-top: 10vh;
@@ -1017,12 +1059,13 @@ button .mainDuvidasBotaoDiv {
         font-size: 15px;
 
     }
+
     .textoFooter {
         font-size: 10px;
         text-align: center;
     }
 
-   /* .imagemTime {
+    /* .imagemTime {
         width: 40vw;
         height: auto;
         padding-left: 30%;
@@ -1035,18 +1078,34 @@ button .mainDuvidasBotaoDiv {
     /*promocoes*/
 
     .containerClube1 {
-        padding-top: 90px;
-    
+        flex-direction: column;
+
     }
 
-    .tituloClube1,
-    .subtituloClube1 {
-        font-size: 70%;
+    .tituloClube1 {
+        font-size: 13px;
+        text-align: center;
     }
+
+    /* #botaoSaibaMais{
+        height: auto;
+        width: 15vw;
+    } */
+
+
 
     .containerClube2 {
+        flex-direction: column;
 
-        font-size: 50%;
-        
+        padding-bottom: 18vh;
+    }
+
+
+    .imagemClube1,
+    .imagem1Clube2,
+    .imagem2Clube2,
+    .imagem3Clube2 {
+        height: auto;
+        width: 50%;
     }
 }
