@@ -1,7 +1,7 @@
 # landing-page-template
 nome dos integrantes, Murilo Abreu Cardoso, Maria Gracia Villanueva Woo, João Victor Victoy
 
-link surge 
+Criei 2 links do surge  mas não funciona na minha maquina
 
 embarrassed-talk.surge.sh
 
