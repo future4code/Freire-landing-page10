@@ -932,13 +932,13 @@ button .mainDuvidasBotaoDiv {
     .textoSegVida,
     .textoSeguro,
     .tituloClube1,
-    .subtituloClube1,
-    .subtituloClube2 {
+    .subtituloClube1
+     {
         text-align: center;
         font-size: 26px;
         padding: 0px;
     }
-
+    .subtituloClube2,
     .textoAbertura2,
     .textoSegVida2,
     .textoSeguro2 {
@@ -997,11 +997,11 @@ button .mainDuvidasBotaoDiv {
     /*TIME*/
 
     .containerTime {
-        padding-top: 10vh;
+        padding-top: 14.8vh;
     }
 
     .tituloTime {
-        padding-top: 20px;
+        padding-top: 50px;
         font-size: 15px;
 
     }
@@ -1051,8 +1051,12 @@ button .mainDuvidasBotaoDiv {
     /*promocoes*/
 
     .containerClube1 {
-        padding-top: 90px;
+        padding-top: 125px;
 
+    }
+    #botaoSaibaMais{
+        height: auto;
+        width: 13vw;
     }
 
     .tituloClube1,
@@ -1061,8 +1065,6 @@ button .mainDuvidasBotaoDiv {
     }
 
     .containerClube2 {
-
         font-size: 50%;
-
     }
 }
