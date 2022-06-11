@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.containerFormulario{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 2fr;
+    justify-items: stretch;
+    column-gap: 0px;
+    background-color: #3B4F66;
+    
+}
+.imagemFormulario{
+    width: 75%;
+    height: 75%;
+    padding-left: 40px;
+}
+.tituloFormulario{ 
+    color:#9EDA6D;
+    font-size: 37px;
+    margin-top: 20px; /*para alinhar com a imagem*/
+    text-align: left;
+}
+.itensFormulario{
+color: #9EDA6D;
+}
+.caixaConteudo{
+    width: 400px;
+    background-color: #fff;
+}
+#conteudoMensagem{
+    height: 100px;
+    width: 500px;
+}
+#botaoEnviar{
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    background-color: #fff;
+    color: #3B4F66;
+    border-radius: 5px;
+    margin-bottom:20% ;
+}
+#botaoEnviar:hover{
+    background-color: #9EDA6D;
+}
+
+#botaoEnviar:active{
+    background-color: white;
+}
